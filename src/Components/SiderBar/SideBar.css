@@ -12,6 +12,12 @@
    width:20px;
    margin-right:20px;
 }
+.sidebar p:hover{
+   text-decoration: underline;
+}
+.side-link p:hover{
+   text-decoration: none;
+}
 .sidelinks{
    display:flex;
    align-items: center;
@@ -36,7 +42,7 @@
    align-items: center;
 }
 .side-link img{
-   width:35px;
+   width:30px;
    border-radius:50%;
    margin-right:15px; 
 }
@@ -45,4 +51,17 @@
 }
 .side-link{
    margin-bottom: 13px;
+}
+.small-sidebar{
+   width:5%
+}
+.small-sidebar p{
+   display: none;
+}
+.small-sidebar h3{
+   display:none
+}
+.small-sidebar hr{
+   width: 50%;
+   margin-bottom: 25px;
 }

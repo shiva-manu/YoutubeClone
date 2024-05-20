@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <NavBar className="Nav-bar" setSideBar={setSideBar}/>
       <Routes>
-        <Route path="/" element={<Home sidebar={sidebar}/>}/>
+        <Route path="/" element={<Home sideBar={sideBar}/>}/>
         <Route path="/video/:categoryId/:videoId" element={<Video/>}/>
       </Routes>
     </div>
