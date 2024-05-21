@@ -1,6 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Repo is about the YoutubeClone.I have used the youtube api which server the data dynamically to the client server.
+https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009
 
 Currently, two official plugins are available:
 
