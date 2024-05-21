@@ -4,7 +4,7 @@ The Repo is about the YoutubeClone.I have used the youtube api which server the 
 
 You can get the api key throught th link [https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009]
 
-and for reference the link [https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009]
+and for reference the link [https://developers.google.com/youtube/v3/docs]
 
 Currently, two official plugins are available:
 
