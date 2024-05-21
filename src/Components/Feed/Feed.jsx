@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Feed.css';
 import thumbnail1 from '../../assets/thumbnail1.png';
 import thumbnail2 from '../../assets/thumbnail2.png';
@@ -14,9 +14,11 @@ const Feed = ({category}) => {
   const fetchData=async()=>{
     const [data,setData]=useState([])
     const videoListUrl=` https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&videoCategoryId=${category}&key=${apiKey}`;
-    await fetch(videoListUrl);
-    
+    await fetch(videoListUrl).then(response=>response.json()).then(data=>setData(data.items));
   }
+  useEffect(()=>{
+    fetchData();
+  },[category])
   return (
    <div className='feed'>
       <Link to={`video/20/4521`} className='card'>
