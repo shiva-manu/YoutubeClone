@@ -1,7 +1,10 @@
 # React + Vite
 
-The Repo is about the YoutubeClone.I have used the youtube api which server the data dynamically to the client server./n
-https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009
+The Repo is about the YoutubeClone.I have used the youtube api which server the data  to the client server.
+
+You can get the api key throught th link https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009
+
+and for referenace the link https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com?project=youtubeclone-424009
 
 Currently, two official plugins are available:
 
