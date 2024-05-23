@@ -6,6 +6,5 @@ You can get the api key throught th link [https://console.cloud.google.com/marke
 
 and for reference the link [https://developers.google.com/youtube/v3/docs]
 
-Currently, two official plugins are available:
-
+The YoutubeClone link is https://youtube-clone-d8zy5yvhr-shiva-manus-projects.vercel.app/
 
